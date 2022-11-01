@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.navbar{
+  padding: 0 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 600;
+    color: #000;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.voice {
+  position: relative;
+  width: 15px;
+  right: 30px;
+}
+
+.search{
+    position: relative;
+    width: 30px;
+    left: 50px; 
+    margin-top: 10px;
+}
+
+
+#inputWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.google img{
+    display: flex;
+    width: 350px;
+    margin-bottom: 10px;
+   
+}
+.container {
+    padding: 10px;
+}
+
+.input{
+    padding: 10px 40px;
+    width: 45%;
+    font-size: 18px;
+    font: 700;
+    border-radius: 25px;
+    box-shadow: 0 0 2px 0.2px;
+   
+}
+
+
+
